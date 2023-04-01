@@ -1,0 +1,5 @@
+rootProject.name = 'DijiDemiApiTest'
+include 'src:main:OMDbApiTest'
+findProject(':src:main:OMDbApiTest')?.name = 'OMDbApiTest'
+include 'main'
+
